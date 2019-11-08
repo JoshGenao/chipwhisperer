@@ -14,3 +14,4 @@ Scopes:
 """
 from chipwhisperer.capture.scopes.OpenADC import OpenADC
 from .cwnano import CWNano
+from .VisaScope import VisaScope

@@ -178,6 +178,7 @@ def scope(scope_type=None, sn=None):
     Scope Types:
      * :class:`scopes.OpenADC` (Pro and Lite)
      * :class:`scopes.CWNano` (Nano)
+     * :class:`scopes.VisaScope` (Teledyne Oscilloscope)
 
     If multiple chipwhisperers are connected, the serial number of the one you
     want to connect to can be specified by passing sn=<SERIAL_NUMBER>
