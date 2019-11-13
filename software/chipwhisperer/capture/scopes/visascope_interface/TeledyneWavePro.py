@@ -55,7 +55,7 @@ class VisaScopeInterface_TeledyneWavePro(VisaScope, util.DisableNewAttr):
     # Constructor
     def __init__(self):
         self._lasttrace = None
-        VisaScope.__init__()
+        VisaScope.__init__(self)
 
     def con(self):
         logging.info(self.visaInst.query('*IDN?'))
